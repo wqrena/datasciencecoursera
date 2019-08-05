@@ -5,7 +5,7 @@ The repository include the following project
 
       -Coursera_course 1 project
    
-    -Coursera_course 3 prject: Getting and Cleanning Data
+      -Coursera_course 3 prject: Getting and Cleanning Data
 
 
 For Course 3 project: Getting and Cleaning Data
