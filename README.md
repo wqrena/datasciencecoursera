@@ -31,13 +31,20 @@ Read in all the downloaded data and understand the data. By looking at the data,
       -y: the data records of the 6 activities for test group or train group.
 
 3. Cleaning the data
-  -For test group (9 subjects), create ID variable in subject, Y dataset, and X dataset and merge them by ID variable.
-  -For train group (21 subjects), create ID variable in subject, Y dataset, and X dataset and merge them by ID variable.
-  -rbind() to combine records in test group and train group. 
-  -so far, the dataset contains column: ID, SUBJECT, TEST, and 561 feature columns
-  -use grep() to extract only the feature variables of mean and standard deviation
-  -Use recode() to recode the TEST column into 6 labeled activities.
-  -Craete final dataset containing columns as ID, SUBJECT, TEST, and the feature columns of mean and standard deviation. All columns are correctly labeled with descriptive column names.
+
+      -For test group (9 subjects), create ID variable in subject, Y dataset, and X dataset and merge them by ID variable.
+      
+      -For train group (21 subjects), create ID variable in subject, Y dataset, and X dataset and merge them by ID variable.
+      
+      -rbind() to combine records in test group and train group. 
+      
+      -so far, the dataset contains column: ID, SUBJECT, TEST, and 561 feature columns.
+      
+      -use grep() to extract only the feature variables of mean and standard deviation
+      
+      -Use recode() to recode the TEST column into 6 labeled activities.
+      
+      -Craete final dataset containing columns as ID, SUBJECT, TEST, and the feature columns of mean and standard deviation. All          columns are correctly labeled with descriptive column names.
   
   4. Create a second dataset with the average of each varible for per subject per activity using pipe and dplyr functions.
   
