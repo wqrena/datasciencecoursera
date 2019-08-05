@@ -2,7 +2,7 @@ Coursera_Course 3 project codebook.
 
 The submited dataset (daaset name: data_less) is a tidy dataset including 10299 rows and 81 columns. Each row is a record to record a series of measurements.
 
-Here is the  descrition of all the columns.
+Here is the  description of all the columns.
 
 ID: the original sequential record number. This variable was used as an unique link ID to merge datasets.
 SUBJECT: the subject who paticipate the experiment.
