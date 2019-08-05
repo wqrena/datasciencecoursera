@@ -1,8 +1,9 @@
+
 library(tidyverse)
-getwd()
 # -----------------------------------------------------------------------------------------------
 # Read in data and understand data
 # ---------------------------------------------------------------------------------------------
+getwd()
 # feature data
 feature <- read.table("./UCI HAR Dataset/features.txt")
 dim(feature)
