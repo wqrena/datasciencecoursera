@@ -15,11 +15,17 @@ Read in all the downloaded data and understand the data. By looking at the data,
 
   By looking at data, get to know each of the datasets as below:
   -activity_labels: record the label of the 6 activities
+  
   -features: record 561 features derived from raw measurments
+  
   -feature_info: information on how the features are derived from raw measurements
+  
   -inertial Signals: the raw data for test group or train group 
+  
   -subject: the subjects records for test group or train group
+  
   -X: the data records of all the 561 features for test group or train group
+  
   -y: the data records of the 6 activities for test group or train group.
 
 3. Cleaning the data
