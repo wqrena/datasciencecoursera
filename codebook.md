@@ -4,10 +4,13 @@ The submited dataset (daaset name: data_less) is a tidy dataset including 10299 
 
 Here is the  description of all the columns.
 
-ID: the original sequential record number. This variable was used as an unique link ID to merge datasets.
-SUBJECT: the subject who paticipate the experiment.
-TEST: The 6 activities that each subject was tested on.
-column "tBodyAcc-mean()-X"" to "fBodyBodyGyroJerkMag-meanFreq()": The 79 feartures of mearsuments. The 79 features are selected from 561 features of measurement containing only mean and standard deviation.
+  ID: the original sequential record number. This variable was used as an unique link ID to merge datasets.
+
+  SUBJECT: the subject who paticipate the experiment.
+
+  TEST: The 6 activities that each subject was tested on.
+
+  column "tBodyAcc-mean()-X"" to "fBodyBodyGyroJerkMag-meanFreq()": The 79 feartures of mearsuments. The 79 features are selected   from 561 features of measurement containing only mean and standard deviation.
 
 
 This tidy dataset was also used to create a second, independent tidy data set with the average of each variable for each activity and each subject. 
